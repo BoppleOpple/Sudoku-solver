@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="style.css" rel="stylesheet" />
+
+	<title>Sudoku Solver</title>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="logic.js"></script>
+</head>
+<body>
+	<div id="options">
+		<br>
+		<input title="Number of rows/columns" type="range" min="6" max="16" step="1" id="rows" value="9" />
+		<label>9x9</label>
+	</div>
+  <div id="board"></div>
+</body>
+</html>

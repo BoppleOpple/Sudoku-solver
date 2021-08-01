@@ -1,0 +1,48 @@
+body {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: rgb(51, 51, 51);
+}
+input[type=range] {
+  width: 100;
+  -webkit-appearance: none;
+  background: transparent;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: auto;
+  background: transparent;
+}
+input[type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: auto;
+  background: transparent;
+}
+input[type=range]::-ms-thumb {
+  
+}
+label {
+  color: white;
+}
